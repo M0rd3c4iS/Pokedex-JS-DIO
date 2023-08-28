@@ -4,7 +4,8 @@
 }
 
 .body {
-   background-color: #CDD4E1;
+   background: linear-gradient(to bottom, rgb(56, 172, 218), white );
+   min-width: 100vh;
 }
 
 h1 {
@@ -19,7 +20,7 @@ h1 {
    width: 100vw;
    height: 100vh;
    padding: 1rem;
-   background-color: white;
+   background: linear-gradient(to bottom, rgb(56, 172, 218), white );
 
 }
 
