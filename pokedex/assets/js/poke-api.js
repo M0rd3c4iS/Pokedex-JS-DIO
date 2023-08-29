@@ -17,6 +17,7 @@ function convertPokeApiDetailToPokemon(pokemonDetail) {
     return pokemon
 }
 
+
 pokeApi.getPokemonDetail = (pokemon) => {
     return fetch(pokemon.url)
         .then((response) => response.json())
@@ -34,6 +35,7 @@ pokeApi.getPokemons = (offset = 0, limit = 20) => {
         .then((detailRequests) => Promise.all(detailRequests))
         .then((pokemonDetails) => pokemonDetails)
 }
+
 
 
 
